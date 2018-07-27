@@ -1,0 +1,67 @@
+@media screen and ( min-width: 900px) and (min-width: 1100px){}
+@media screen and ( max-width: 900px) and ( min-width: 900px){}
+
+body {	background: #02010a;
+	font-family: dancing script;
+	color: white;
+	margin: 0;
+	margin-top: 0;
+}
+.container{
+	text-align: center;
+	max-width: 900px;
+	max-width: 100%;
+}
+#paisajes {
+	background: #5b7989;
+	margin: auto;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#menu {
+	color: white;
+	margin: 80px;
+	margin-right: 80px;
+	padding: 0;
+	list-style: none;	
+}
+.menu li  {
+	color: white;
+	display: inline;
+	list-style: none;
+}
+.menu li a {
+	color: white;
+	text-decoration: none;
+}
+#imagenes {
+	background: #d5c75f;
+	columns: 3;
+}
+.imagenes img {
+	width: 100%;
+	max-width: 400px;
+	box-shadow: 0 0 0 2px #02010a;
+	margin: 3px;
+
+}
+.blue {
+	filter: blur(10px);
+}
+.gris {
+	filter: grayscale(100%);
+}
+.sepia { 
+	filter: sepia(90%);
+ }
+ .footer{
+	background: #C6d5c5;
+	color: #000000;
+	columns: 4;
+	margin-top: 0;
+	width: 100%;
+	height: 200px;
+	border-radius: 0 0 10px 10px;
+}
